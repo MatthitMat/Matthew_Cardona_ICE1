@@ -19,5 +19,7 @@ public class CardDealer
       Card card = new Card("Spades", 4); //Added by Matthew Cardona
       Card nineClubs = new Card("Clbs", 9);
       nineClubs.setSuit("diamonds");
+      
+      card.getSuit();
    }
 }
