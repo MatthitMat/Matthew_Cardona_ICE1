@@ -10,11 +10,13 @@ package ca.sheridancollege.week2.softwarefundamentals;
  *
  * @author dancye, 2019
  * Matthew Cardona
+ * Student ID: 991640494
  */
 public class CardDealer
 {
    public static void main (String[] args)
    {
+      Card card = new Card("Spades", 4); //Added by Matthew Cardona
       Card nineClubs = new Card("Clbs", 9);
       nineClubs.setSuit("diamonds");
    }
