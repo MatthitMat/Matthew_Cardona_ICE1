@@ -17,6 +17,7 @@ public class CardDealer
    public static void main (String[] args)
    {
       Card card = new Card("Spades", 4); //Added by Matthew Cardona
+      Card card1 = new Card("Hearts", 3);
       Card nineClubs = new Card("Clbs", 9);
       nineClubs.setSuit("diamonds");
       
